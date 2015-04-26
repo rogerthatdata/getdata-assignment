@@ -14,7 +14,7 @@ The data files are sourced from here: https://d396qusza40orc.cloudfront.net/getd
 The script produces a single output file: **tidydata.txt**.  This file can be read back into R using the **read.table()** function or optionally opened with a text editor, such as Notepad++.
 
 ### Code Book
-The code book describing the output can be found here: 
+The [code book](https://github.com/rogerthatdata/getdata-assignment/blob/master/Code%20Book.md) describing the output can be found within this repository. 
 
 ### Design Considerations
 1. The resulting tidy data file is wide rather than tall.  
