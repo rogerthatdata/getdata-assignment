@@ -5,9 +5,9 @@ The repository contains R programming code in the file run_analysis.R for the co
 The data files are sourced from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 ### The code can be run by: 
-1.) copying the **run_analysis.R** file into your local R environment that supports the latest version of the **dplyr** package; that is version 0.4.1 as of this writing (0.4.0 will likely work as well).  
+1. copying the **run_analysis.R** file into your local R environment that supports the latest version of the **dplyr** package; that is version 0.4.1 as of this writing (0.4.0 will likely work as well).  
 
-2.) Either: allowing the script to download the aforementioned zip data file and process it within the directory containing the run_analysis.R code **OR** placing a copy of the aforementioned zip file into this same working directory **OR** extracting the UCI HAR Dataset directory from the zip file and placing in this working directory **OR**, as a final option extracting these six text files from the zip and placing them in this same working directory: "features.txt", "X_train.txt", "Y_train.txt", "subject_train.txt", "Y_test.txt", "X_test.txt", "subject_test.txt".
+2. Either: allowing the script to download the aforementioned zip data file and process it within the directory containing the run_analysis.R code **OR** placing a copy of the aforementioned zip file into this same working directory **OR** extracting the UCI HAR Dataset directory from the zip file and placing in this working directory **OR**, as a final option extracting these six text files from the zip and placing them in this same working directory: "features.txt", "X_train.txt", "Y_train.txt", "subject_train.txt", "Y_test.txt", "X_test.txt", "subject_test.txt".
 **NOTE:** the download and unzip functionality has only be tested on a Windows (8.1) based R environment. As such the curlz option was not used, as it can break in Windows environments, and this omission may cause issues for non-Windows environments.
 
 ### Output Produced
